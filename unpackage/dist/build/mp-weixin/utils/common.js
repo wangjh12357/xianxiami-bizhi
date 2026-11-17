@@ -1,0 +1,1 @@
+"use strict";require("../common/vendor.js"),exports.formatTimeAgo=function(o){const t=new Date-new Date(o),e=Math.floor(t/6e4),r=Math.floor(e/60),n=Math.floor(r/24),a=Math.floor(n/30);return e<1?"刚刚":e<60?`${e}分钟前`:r<24?`${r}小时前`:n<30?`${n}天前`:a<3?`${a}月前`:null};

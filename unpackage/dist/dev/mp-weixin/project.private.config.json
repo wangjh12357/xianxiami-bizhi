@@ -1,0 +1,22 @@
+{
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "pages/classify/classify",
+                    "pathName": "pages/search/search",
+                    "query": "",
+                    "scene": null,
+                    "launchMode": "default"
+                },
+                {
+                    "name": "pages/classlist/classlist",
+                    "pathName": "pages/notice/detail",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
+    }
+}
